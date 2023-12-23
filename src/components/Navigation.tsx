@@ -8,6 +8,9 @@ const Navigation = () => {
       title: "About",
     },
     {
+      title: "Skills",
+    },
+    {
       title: "Projects",
     },
     {
