@@ -11,8 +11,8 @@ import { FaRegFilePdf } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="">
-      <div className="mt-16 w-full lg:w-[70%] h-full lg:m-auto lg:min-h-[600px] lg:h-auto flex flex-col lg:flex-row items-center justify-center bg-[#f7f3f2] p-4">
-        <div className="flex-1 lg:w-[70%] flex flex-col items-center lg:items-start text-center lg:text-left p-4 lg:pl-8 lg:pr-16 md:p-8">
+      <div className="mt-16 w-full lg:w-8/12 h-full lg:m-auto lg:min-h-[600px] lg:h-auto flex flex-col lg:flex-row items-center justify-center bg-[#f7f3f2] p-4">
+        <div className="flex-1 lg:w-8/12 flex flex-col items-center lg:items-start text-center lg:text-left p-4 lg:pl-8 lg:pr-16 md:p-8">
           <p className="text-[#fd6e0a] text-2xl sm:text-3xl font-semibold 2xl:mb-6 2xl:pl-2">
             Hi, I&apos;m
           </p>
@@ -37,15 +37,13 @@ const Hero = () => {
         <div className=" flex-none flex items-center justify-center order-first lg:order-last">
           <Image
             src={HeroImage}
-            // width={300}
-            // height={300}
             alt="Logo"
             className="rounded-full w-[150px] h-[150px] sm:w-[230px] sm:h-[230px] md:w-[300px] md:h-[300px]"
           />
         </div>
       </div>
 
-      <div className="p-4 grid sm:grid-cols-2 gap-4 lg:grid-cols-3 lg:w-[60%] lg:m-auto lg:bg-white lg:rounded-full lg:shadow-sm">
+      <div className="p-4 grid sm:grid-cols-2 gap-4 lg:grid-cols-3 lg:w-7/12 lg:m-auto lg:bg-white lg:rounded-full lg:shadow-sm">
         <div className="flex items-center justify-start xl:justify-center md:border-r-2 md:border-r-gray-100 bg-white p-6 lg:p-2 rounded-md shadow-sm lg:shadow-none">
           <div className="flex justify-between space-x-4">
             <div className="bg-[#fd6e0a] rounded-full w-[55px] h-[55px] flex items-center justify-center">
