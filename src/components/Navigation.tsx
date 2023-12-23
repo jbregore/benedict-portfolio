@@ -5,9 +5,6 @@ import Image from "next/image";
 const Navigation = () => {
   const links = [
     {
-      title: "Home",
-    },
-    {
       title: "About",
     },
     {
