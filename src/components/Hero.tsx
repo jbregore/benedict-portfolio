@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="p-4 grid sm:grid-cols-2 gap-4 lg:grid-cols-3 lg:w-[60%] lg:m-auto lg:bg-white lg:rounded-full">
+      <div className="p-4 grid sm:grid-cols-2 gap-4 lg:grid-cols-3 lg:w-[60%] lg:m-auto lg:bg-white lg:rounded-full lg:shadow-sm">
         <div className="flex items-center justify-start xl:justify-center md:border-r-2 md:border-r-gray-100 bg-white p-6 lg:p-2 rounded-md shadow-sm lg:shadow-none">
           <div className="flex justify-between space-x-4">
             <div className="bg-[#fd6e0a] rounded-full w-[55px] h-[55px] flex items-center justify-center">
