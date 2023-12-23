@@ -51,7 +51,7 @@ const Navigation = () => {
           rtl:space-x-reverse md:mt-0 md:border-0 "
           >
             {links.map((item: any, index: number) => (
-              <li>
+              <li key={index}>
                 <a
                   href="#"
                   className="block py-2 px-3 hover:text-[#f8791e] text-[#15295f] md:p-0 font-semibold"

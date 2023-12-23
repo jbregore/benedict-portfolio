@@ -13,7 +13,9 @@ const Hero = () => {
     <div className="">
       <div className="w-[70%] flex min-h-[600px] m-auto bg-[#f5eceb]">
         <div className="w-full flex flex-col pl-8 pr-8 items-start justify-center">
-          <p className="text-[#fd6e0a] text-2xl font-semibold pl-2">Hi, I'm</p>
+          <p className="text-[#fd6e0a] text-2xl font-semibold pl-2">
+            Hi, I&apos;m
+          </p>
           <p className="text-[#15295f] text-[3rem] font-bold">
             John Benedict Regore
           </p>
@@ -24,7 +26,7 @@ const Hero = () => {
             A talented IT Individual with passion for tailored solutions seeks
             the position for Web Developer in a thriving, exciting, and growing
             company. Experienced in web development programming language, to
-            provide quality support to company's IT team in developing and
+            provide quality support to company&apos;s IT team in developing and
             deploying web-based system and software tool.
           </p>
           <div className="mt-4">
