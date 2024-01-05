@@ -18,7 +18,7 @@ const Navigation = () => {
     },
   ];
   return (
-    <nav className="">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#f7f3f2]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Image src={Logo} width={200} alt="Logo" />
         <button
@@ -38,9 +38,9 @@ const Navigation = () => {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M1 1h15M1 7h15M1 13h15"
             />
           </svg>
@@ -48,7 +48,7 @@ const Navigation = () => {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul
             className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 
-          rtl:space-x-reverse md:mt-0 md:border-0 "
+            rtl:space-x-reverse md:mt-0 md:border-0 "
           >
             {links.map((item: any, index: number) => (
               <li key={index}>

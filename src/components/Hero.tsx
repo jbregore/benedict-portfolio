@@ -14,19 +14,16 @@ const Hero = () => {
       <div className="mt-16 w-full lg:w-8/12 h-full lg:m-auto lg:min-h-[600px] lg:h-auto flex flex-col lg:flex-row items-center justify-center bg-[#f7f3f2] p-4">
         <div className="flex-1 lg:w-8/12 flex flex-col items-center lg:items-start text-center lg:text-left p-4 lg:pl-8 lg:pr-16 md:p-8">
           <p className="text-[#fd6e0a] text-2xl sm:text-3xl font-semibold 2xl:mb-6 2xl:pl-2">
-            Hi, I&apos;m
+            Hi, I{"'"}m
           </p>
           <p className="text-[#15295f] text-2xl sm:text-3xl 2xl:text-[4rem] font-bold 2xl:mb-8">
             John Benedict Regore
           </p>
-          <p className="text-[#15295f] text-2xl sm:text-3xl 2xl:text-[3rem] font-bold 2xl:mb-8 mb-4">
-            Web Developer
-          </p>
           <p className="text-[#15295f] text-md sm:text-lg md:text-xl pr-6">
-            A talented IT Individual with a passion for tailored solutions.
-            Experienced in web development programming language, to provide
-            quality support to the company&apos;s IT team in developing and
-            deploying web-based systems and software tools.
+            A passionate web developer on a mission to transform ideas into
+            immersive digital experiences. Let&apos;s collaborate and turn your
+            digital dreams into reality. Dive into the world of software
+            development, where innovation meets implementation!
           </p>
           <div className="mt-4">
             <a

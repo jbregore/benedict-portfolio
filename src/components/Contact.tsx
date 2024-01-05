@@ -11,8 +11,8 @@ const Contact = () => {
 
       <section className="">
         <div className="pb-8 lg:pb-16 px-4 mx-auto max-w-screen-md">
-          <p className="mb-4 lg:mb-8 font-light text-center text-gray-500 sm:text-xl">
-            Don't like forms? send me an email at{" "}
+          <p className="mb-4 lg:mb-8 font-normal text-center text-gray-500 sm:text-xl">
+            Don{"'"}t like forms? send me an email at{" "}
             <u style={{ cursor: "pointer", color: "#fd6e0a" }}>
               jbbbregore099@gmail.com
             </u>
