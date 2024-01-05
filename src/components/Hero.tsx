@@ -23,15 +23,14 @@ const Hero = () => {
           <p className="text-[#15295f] text-md sm:text-lg md:text-2xl pr-6 font-maven_pro">
             <Typewriter
               words={[
-                `A passionate web developer on a mission to transform ideas into
-            immersive digital experiences. Let's collaborate and turn your
-            digital dreams into reality. Dive into the world of software
-            development, where innovation meets implementation!`,
+                `A passionate web developer on a mission to transform ideas into immersive digital experiences.`,
+                `Let's collaborate and turn your digital dreams into reality.`,
+                `Dive into the world of software development, where innovation meets implementation!`,
               ]}
               loop={0}
               cursorBlinking
               typeSpeed={30}
-              deleteSpeed={50}
+              deleteSpeed={20}
             />
           </p>
           <div className="mt-4">
