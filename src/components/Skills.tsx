@@ -24,7 +24,6 @@ const Skills = () => {
         <SkillCard title="Laravel" iconClass="devicon-laravel-plain" />
         <SkillCard title="Mysql" iconClass="devicon-mysql-plain" />
         <SkillCard title="Firebase" iconClass="devicon-firebase-plain" />
-        <SkillCard title="MongoDB" iconClass="devicon-mongodb-plain" />
         <SkillCard title="Git" iconClass="devicon-git-plain" />
       </div>
     </div>

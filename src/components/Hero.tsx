@@ -23,15 +23,33 @@ const Hero = () => {
             Web Developer
           </p>
           <p className="text-[#15295f] text-md sm:text-lg md:text-xl pr-6">
-            A talented IT Individual with a passion for tailored solutions seeks
-            the position for Web Developer in a thriving, exciting, and growing
-            company. Experienced in web development programming language, to
-            provide quality support to the company&apos;s IT team in developing
-            and deploying web-based systems and software tools.
+            A talented IT Individual with a passion for tailored solutions.
+            Experienced in web development programming language, to provide
+            quality support to the company&apos;s IT team in developing and
+            deploying web-based systems and software tools.
           </p>
           <div className="mt-4">
-            <Button title="Download CV" icon={<FaRegFilePdf />} />
-            <Button title="Github" icon={<FaGithub />} />
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/midterm-redux.appspot.com/o/John-Benedict-Regore.pdf?alt=media&token=3e6a63dc-9a30-4c1a-b8c8-765dbf172948"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                textDecoration: "none",
+              }}
+            >
+              <Button title="Download CV" icon={<FaRegFilePdf />} />
+            </a>
+
+            <a
+              href="https://github.com/jbregore"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                textDecoration: "none",
+              }}
+            >
+              <Button title="Github" icon={<FaGithub />} />
+            </a>
           </div>
         </div>
         <div className=" flex-none flex items-center justify-center order-first lg:order-last">
