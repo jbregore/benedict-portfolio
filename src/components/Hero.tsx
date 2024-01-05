@@ -7,6 +7,7 @@ import { GoProjectRoadmap } from "react-icons/go";
 import { SlBadge } from "react-icons/sl";
 import { FaGithub } from "react-icons/fa";
 import { FaRegFilePdf } from "react-icons/fa";
+import { Typewriter } from "nextjs-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -16,14 +17,22 @@ const Hero = () => {
           <p className="text-[#fd6e0a] text-2xl sm:text-3xl font-semibold 2xl:mb-6 2xl:pl-2">
             Hi, I{"'"}m
           </p>
-          <p className="text-[#15295f] text-2xl sm:text-3xl 2xl:text-[4rem] font-bold 2xl:mb-8">
+          <p className="text-[#15295f] text-2xl sm:text-3xl 2xl:text-[4rem] font-bold 2xl:mb-8 ">
             John Benedict Regore
           </p>
-          <p className="text-[#15295f] text-md sm:text-lg md:text-xl pr-6">
-            A passionate web developer on a mission to transform ideas into
-            immersive digital experiences. Let&apos;s collaborate and turn your
+          <p className="text-[#15295f] text-md sm:text-lg md:text-2xl pr-6 font-maven_pro">
+            <Typewriter
+              words={[
+                `A passionate web developer on a mission to transform ideas into
+            immersive digital experiences. Let's collaborate and turn your
             digital dreams into reality. Dive into the world of software
-            development, where innovation meets implementation!
+            development, where innovation meets implementation!`,
+              ]}
+              loop={0}
+              cursorBlinking
+              typeSpeed={30}
+              deleteSpeed={50}
+            />
           </p>
           <div className="mt-4">
             <a

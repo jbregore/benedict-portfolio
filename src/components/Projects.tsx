@@ -92,7 +92,7 @@ const Projects = () => {
       className="w-full bg-[#f7f3f2] mt-10 max-w-screen-xl m-auto"
       id="projects"
     >
-      <p className="text-[#fd6e0a] text-2xl sm:text-3xl font-semibold text-center mb-6">
+      <p className="text-[#15295f] text-2xl sm:text-3xl font-semibold text-center mb-6 font-maven_pro">
         Some Old Projects:
       </p>
 

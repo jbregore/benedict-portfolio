@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Maven_Pro } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: "Benedict",
   description: "Benedict Portfolio",
 };
+
+const maven_pro = Maven_Pro({
+  subsets: ["latin"],
+  variable: "--font-maven_pro",
+  weight: "500",
+});
 
 export default function RootLayout({
   children,
@@ -22,7 +28,9 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${maven_pro.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
