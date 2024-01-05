@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="w-full bg-[#f7f8fc77] mt-20 p-8 ">
+    <div className="w-full bg-[#f7f8fc77] mt-20 p-8 " id="skills">
       <p className="text-[#fd6e0a] text-2xl sm:text-3xl font-semibold text-center mb-6">
         Knowledgable in:
       </p>

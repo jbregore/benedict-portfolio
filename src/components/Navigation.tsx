@@ -6,15 +6,19 @@ const Navigation = () => {
   const links = [
     {
       title: "About",
+      link: "#about",
     },
     {
       title: "Skills",
+      link: "#skills",
     },
     {
       title: "Projects",
+      link: "#projects",
     },
     {
       title: "Contact",
+      link: "#contact",
     },
   ];
   return (
@@ -53,7 +57,7 @@ const Navigation = () => {
             {links.map((item: any, index: number) => (
               <li key={index}>
                 <a
-                  href="#"
+                  href={item.link}
                   className="block py-2 px-3 hover:text-[#f8791e] text-[#15295f] md:p-0 font-semibold"
                   aria-current="page"
                 >
