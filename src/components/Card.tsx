@@ -18,7 +18,7 @@ const Card = (props: CardProps) => {
       <Image
         src={img}
         alt="Logo"
-        className="w-full h-[150px] sm:h-[230px] rounded-md"
+        className="w-full h-[300px] md:h-[230px] rounded-md"
         layout="contained"
       />
       `

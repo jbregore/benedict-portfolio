@@ -93,7 +93,7 @@ const Projects = () => {
         Some Old Projects:
       </p>
 
-      <div className="p-4 grid grid-cols-2 gap-4 xl:gap-8 xl:grid-cols-3 lg:m-auto">
+      <div className="p-4 grid grid-cols-1 gap-4 xl:gap-8 md:grid-cols-2 xl:grid-cols-3 lg:m-auto">
         {projects.map((item: any, index: number) => (
           <Card key={index} {...item} />
         ))}
