@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Benedict",
-  description: "Benedict Portfolio",
+  description: "Fullstack Developer",
 };
 
 const maven_pro = Maven_Pro({

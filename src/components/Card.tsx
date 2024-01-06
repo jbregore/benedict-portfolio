@@ -19,7 +19,6 @@ const Card = (props: CardProps) => {
         src={img}
         alt="Logo"
         className="w-full h-[300px] md:h-[230px] rounded-md"
-        layout="contained"
       />
       `
       <div className="py-2 px-3">
