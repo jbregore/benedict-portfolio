@@ -34,7 +34,6 @@ const Contact = () => {
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 
               text-sm rounded-lg block w-full p-2.5 outline-none"
                 placeholder=""
-                required
               />
             </div>
             <div>
@@ -50,7 +49,6 @@ const Contact = () => {
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 
               text-sm rounded-lg block w-full p-2.5 outline-none"
                 placeholder=""
-                required
               />
             </div>
             <div>
@@ -66,7 +64,6 @@ const Contact = () => {
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border
                border-gray-300 shadow-sm outline-none"
                 placeholder=""
-                required
               />
             </div>
             <div className="sm:col-span-2">
