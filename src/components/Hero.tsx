@@ -11,8 +11,8 @@ import { Typewriter } from "nextjs-simple-typewriter";
 
 const Hero = () => {
   return (
-    <div className="" id="about">
-      <div className="mt-16 w-full lg:w-8/12 h-full lg:m-auto lg:min-h-[600px] lg:h-auto flex flex-col lg:flex-row items-center justify-center bg-[#f7f3f2] p-4">
+    <div className="pt-8 md:pt-0" id="about">
+      <div className="mt-16  w-full lg:w-8/12 h-full lg:m-auto lg:min-h-[600px] lg:h-auto flex flex-col lg:flex-row items-center justify-center bg-[#f7f3f2] p-4">
         <div className="flex-1 lg:w-8/12 flex flex-col items-center lg:items-start text-center lg:text-left p-4 lg:pl-8 lg:pr-16 md:p-8">
           <p className="text-[#fd6e0a] text-2xl sm:text-3xl font-semibold 2xl:mb-6 2xl:pl-2">
             Hi, I{"'"}m
@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
             <div>
               <p className="text-[#15295f] text-xl font-semibold">
-                24 Projects
+                ++ Projects
               </p>
               <p className="text-[#fd6e0a] text-lg">Completed</p>
             </div>
@@ -99,9 +99,7 @@ const Hero = () => {
               <TbCoffee color="#fff" size={30} />
             </div>
             <div>
-              <p className="text-[#15295f] text-xl font-semibold">
-                200+ Cups of
-              </p>
+              <p className="text-[#15295f] text-xl font-semibold">++ Cups of</p>
               <p className="text-[#fd6e0a] text-lg">Coffee</p>
             </div>
           </div>

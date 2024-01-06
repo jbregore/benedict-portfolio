@@ -93,7 +93,7 @@ const Projects = () => {
       id="projects"
     >
       <p className="text-[#15295f] text-2xl sm:text-3xl font-semibold text-center mb-6 font-maven_pro">
-        Some Old Projects:
+        Some Old Works:
       </p>
 
       <div className="p-4 grid grid-cols-1 gap-4 xl:gap-8 md:grid-cols-2 xl:grid-cols-3 lg:m-auto">
