@@ -35,7 +35,7 @@ const Hero = () => {
           </p>
           <div className="mt-4">
             <a
-              href="https://firebasestorage.googleapis.com/v0/b/midterm-redux.appspot.com/o/John-Benedict-Regore.pdf?alt=media&token=3e6a63dc-9a30-4c1a-b8c8-765dbf172948"
+              href="https://firebasestorage.googleapis.com/v0/b/midterm-redux.appspot.com/o/John%20Benedict%20T%20Regore.pdf?alt=media&token=a19fcf0a-a24e-4126-b038-a30cabc57f72"
               target="_blank"
               rel="noreferrer"
               style={{
